@@ -671,7 +671,7 @@ body.contactus #nav .contactlink {
     text-underline-offset: 10px;
 }
 
-@media (max-width: 350px) {
+@media (max-width: 400px) {
 
     .home .top,
     .addcourse .top,
