@@ -671,62 +671,50 @@ body.contactus #nav .contactlink {
     text-underline-offset: 10px;
 }
 
-@media (max-width: 480px) {
-    .top {
+@media (max-width: 350px) {
+
+    .home .top,
+    .addcourse .top,
+    .contactus .top,
+    .mycourse .top {
         width: 100%;
-        font-size: 40px;
-        padding-bottom: 60px;
-    }
-    #nav {
-        top: 10vh;
-        left: 5vw;
+        padding-bottom: 100px;
     }
 
-    #nav a {
+    .all #nav {
+        margin-left: -85%;
+        margin-top: 13%;
+        width: 100%;
+    }
+
+    .all #nav a {
         font-size: 20px;
-        padding: 10px;
+    }
+
+    .all #nav .secnav {
+        transform: translate(-20px, 20px);
+        font-size: 20px;
     }
 
     .homeimg {
-        margin-top: 70vh;
-        font-size: 28px;
-        width: 80vw;
-        height: 400px;
-        margin-left: -180px;
+        display: none;
     }
 
-    .homeimg img {
-        width: 70vw;
-    }
-
-    .tothours {
-        width: 47%;
-        height: 70px;
-        transform: translateY(15px);
-    }
-
-    .tothours img {
-        width: 60px;
-        margin-left: -135px;
-        transform: translateY(-4px);
-    }
-
-    .welcome {
+    .home .welcome {
         width: 90vw;
         font-size: 30px;
         margin: 0 auto;
-        margin-top: 150px;
         text-align: center;
-
+        margin-top: 200px;
     }
 
     .welcomedet {
         font-size: 25px;
-        margin-top: 20px;
     }
 
     .features {
         height: 55vh;
+        margin-top: 20%;
     }
 
     .features h2 {
@@ -755,25 +743,24 @@ body.contactus #nav .contactlink {
         font-size: 25px;
     }
 
-    #courses h2 {
+    .all #courses h2 {
         font-size: 35px;
         transform: translateX(-20px);
     }
 
-    #courses h6 {
+    .all #courses h6 {
         font-size: 20px;
     }
 
     .coursetext {
-        transform: translateX(-20px);
         width: 80vw;
     }
 
-    .addimg {
+    .all .addimg {
         margin-top: 11vh;
     }
 
-    .addform {
+    .all .addform {
         width: 70vw;
         height: 100vh;
         font-size: 20px;
@@ -784,26 +771,25 @@ body.contactus #nav .contactlink {
         width: 80%;
     }
 
-    .addform textarea {
+    .all .addform textarea {
         width: 80%;
     }
 
-    .addform .lab3 {
-        top: 0;
-        left: 0;
+    .all .addform .lab3 {
+        margin-left: 10%;
     }
 
-    .hours {
-        margin-top: 35%;
+    .all .hours {
+        margin-top: 70%;
         margin-left: -19%;
     }
 
-    #addsec h2 {
+    .all #addsec h2 {
         font-size: 30px;
-        margin-top: -55%;
+        margin-top: -50%;
     }
 
-    #addsec h6 {
+    .all #addsec h6 {
         font-size: 15px;
     }
 
@@ -812,17 +798,17 @@ body.contactus #nav .contactlink {
         font-size: 20px;
     }
 
-    .contactinfo img {
-        margin-top: 10%;
+    .all .contactinfo img {
+        margin-top: 30%;
     }
 
-    .contactinfo h2 {
+    .all .contactinfo h2 {
         font-size: 30px;
-        margin-top: -105vh;
         margin-left: 20px;
+        margin-top: -210%;
     }
 
-    .us {
+    .all .us {
         margin-top: -34.5px;
         margin-left: 104.2px;
     }
@@ -833,9 +819,9 @@ body.contactus #nav .contactlink {
         width: 90%;
     }
 
-    .sendinfo {
+    .all .sendinfo {
         width: 88%;
-        height: 110vh;
+        height: 60%;
         padding: 20px;
         margin: 0 auto;
         font-size: 20px;
@@ -880,25 +866,25 @@ body.contactus #nav .contactlink {
         top: 0;
     }
 
-    .submit2 {
+    .all .submit2 {
         width: fit-content;
         padding: 0 15px;
-        margin-top: -30%;
-        transform: translateX(79%);
+        margin-left: -15%;
     }
 
-    .contact {
+    .all .contact {
         margin-left: 40px;
         margin-top: 20px;
-        font-size: 25px;
-    }
-
-    .contact a {
-        font-size: 25px;
+        font-size: 20px;
         width: 80%;
     }
 
-    .contact img {
+    .all .contact a {
+        font-size: 20px;
+        width: 80%;
+    }
+
+    .all .contact img {
         width: 25px;
     }
 
@@ -925,8 +911,8 @@ body.contactus #nav .contactlink {
         font-size: 30px;
     }
 
-    .links img {
-        width: 35px;
+    .all .links img {
+        width: 30px;
         padding: 20px;
         margin-top: -20px;
     }
@@ -938,6 +924,7 @@ body.contactus #nav .contactlink {
         font-size: 40px;
         padding-bottom: 80px;
     }
+
     #nav {
         top: 12vh;
         left: 7vw;
@@ -972,8 +959,8 @@ body.contactus #nav .contactlink {
         transform: translateY(-6px);
     }
 
-    .tothours h6{
-        transform: translate(20px,-26px);
+    .tothours h6 {
+        transform: translate(20px, -26px);
     }
 
     .tothours h5 {
@@ -1202,11 +1189,13 @@ body.contactus #nav .contactlink {
         margin-top: -20px;
     }
 }
+
 @media (max-width: 1024px) {
     .top {
         width: 100%;
         font-size: 45px;
     }
+
     #nav {
         top: 20px;
         left: 350px;
@@ -1239,16 +1228,16 @@ body.contactus #nav .contactlink {
         transform: translateY(-6px);
     }
 
-    .tothours h6{
-        transform: translate(30px,-26px);
+    .tothours h6 {
+        transform: translate(30px, -26px);
     }
 
     .tothours h5 {
-        transform: translate(10px,-35px);
+        transform: translate(10px, -35px);
     }
 
     .welcome {
-       margin-top:150px;
+        margin-top: 150px;
 
     }
 
@@ -1292,7 +1281,7 @@ body.contactus #nav .contactlink {
         margin-top: 40px;
         margin-left: 250px;
     }
-    
+
     .addform .lab3 {
         margin-left: 250px;
 
@@ -1407,5 +1396,3 @@ body.contactus #nav .contactlink {
         margin-top: -20px;
     }
 }
-
-
