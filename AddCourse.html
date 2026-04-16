@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Course Organizer</title>
+    <meta charset="UTF-8">
+</head>
+
+<body class="addcourse">
+    <header>
+        <h1 class="top">Course Organizer</h1>
+    </header>
+    <div class="all">
+        <div id="nav">
+            <nav>
+                <a href="index.html" class="homelink">Home</a>
+                <a href="MyCourses.html" class="mylink">My Courses</a>
+                <div class="secnav">
+                    <a href="AddCourse.html" class="addlink">Add Course</a>
+                    <a href="ContactUs.html" class="contactlink">Contact us</a>
+                </div>
+            </nav>
+        </div>
+        <main>
+            <section id="addsec">
+                <img src="logos/unnamed2.png" class="addimg">
+                <div class="addimgblue">
+                    <br>
+                </div>
+                <h2>Expand Your Knowledge</h2>
+                <h6>Fill in the details below to add a new course to your organizer</h6>
+                <form autocomplete="off" action="MyCourses.html" method="get" class="addform">
+                    <label class="lab1">Course Name</label>
+                    <br>
+                    <input type="text" class="name" placeholder="e.g. Math-2">
+                    <br>
+                    <label class="lab2">Instructor</label>
+                    <br>
+                    <input type="text" class="instructor" placeholder="e.g. Dr.Mohamed">
+                    <br>
+                    <label class="lab3">Credit Hours</label>
+                    <br>
+                    <input type="number" class="hours" min="0" max="3" placeholder="3">
+                    <br>
+                    <label class="lab4">Notes</label>
+                    <br>
+                    <textarea class="notes" placeholder="Enter any additional notes"></textarea>
+                    <br>
+                </form>
+                <input type="submit" class="submit">
+            </section>
+        </main>
+    </div>
+    <footer id="f3">
+        <p>Education Courses System © 2026 John Adel</p>
+    </footer>
+</body>
+
+</html>

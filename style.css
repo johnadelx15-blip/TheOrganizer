@@ -1,0 +1,1411 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+    background-color: rgb(244, 246, 247);
+}
+
+@font-face {
+    font-family: "opinion";
+    src: url("fonts/opinion-pro-extrabold.otf");
+}
+
+@font-face {
+    font-family: "opinion2";
+    src: url("fonts/Opinion\ Pro\ Bold.ttf");
+}
+
+
+footer {
+    position: relative;
+    width: 100%;
+    transform: translateY(100%);
+    font-family: opinion2;
+    text-align: center;
+    background-color: rgba(0, 7, 102, 0.841);
+    color: #94a3b8;
+    box-shadow: 0px 0px 8px rgb(173, 173, 173);
+    padding: 0.5px 0;
+}
+
+.top {
+    position: fixed;
+    width: 100%;
+    top: 0;
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 20px;
+    padding-top: 10px;
+    font-family: opinion;
+    font-size: 50px;
+    background-color: rgb(243, 243, 244);
+    box-shadow: 0px 0px 80px rgba(206, 206, 206, 0.575);
+    color: rgb(0, 6, 102);
+    z-index: 100;
+}
+
+.all {
+    font-size: 30px;
+    font-family: opinion2;
+}
+
+.homeimg {
+    position: relative;
+    left: 50vw;
+    top: -65vh;
+    height: 85vh;
+    width: 37vw;
+    background-color: rgb(253, 253, 253);
+    padding: 30px 0;
+    border-radius: 20px;
+    box-shadow: 0px 0px 80px rgb(206, 206, 206);
+}
+
+.homeimg img {
+    margin: 0 -20px;
+    border-radius: 20px;
+}
+
+.homeimg h6 {
+    text-align: left;
+    margin-left: 40px;
+    margin-top: 10px;
+    color: rgb(127, 141, 160);
+}
+
+.homeimg h4 {
+    color: rgb(0, 6, 102);
+    margin-top: -40px;
+}
+
+.tothours {
+    position: relative;
+    width: 12vw;
+    height: 10vh;
+    margin-top: -50px;
+    left: -4vw;
+    background-color: rgb(253, 253, 253);
+    box-shadow: 0px 0px 80px rgb(206, 206, 206);
+    border-radius: 20px;
+}
+
+.tothours img {
+    width: 50px;
+    margin-left: -9vw;
+    margin-top: 1.5vh;
+}
+
+.tothours h6 {
+    text-align: left;
+    color: rgb(127, 141, 160);
+    margin-top: -60px;
+    margin-left: 70px;
+}
+
+.tothours h5 {
+    text-align: center;
+    color: rgb(0, 6, 102);
+    margin-top: -77px;
+    margin-left: 45px;
+}
+
+.welcome {
+    color: rgb(0, 6, 102);
+    font-size: 40px;
+    margin-left: 60px;
+    text-align: left;
+    margin-top: 30vh;
+    width: 40vw;
+}
+
+.welcomedet {
+    color: rgb(114, 115, 130);
+    font-size: 35px;
+    margin-top: 10vh;
+}
+
+#wel {
+    text-align: center;
+}
+
+.features {
+    margin-top: -53vh;
+    background-color: rgb(0, 6, 102);
+    height: 65vh;
+    margin-bottom: 0;
+}
+
+.features h2 {
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 60px;
+    padding-top: 5vh;
+}
+
+ul,
+h3 {
+    list-style-position: inside;
+    color: #bfdbfe;
+    font-size: 30px;
+    padding-top: 3vh;
+}
+
+#nav {
+    position: fixed;
+    display: inline;
+    z-index: 102;
+    top: 4%;
+    left: 35%;
+}
+
+.secnav {
+    transform: translate(85%, -100%);
+}
+
+#nav a {
+    color: rgb(136, 148, 164);
+    padding: 10px 20px;
+    transition: 0.5s;
+}
+
+#nav a:hover {
+    color: rgb(0, 6, 102);
+}
+
+body.home #nav .homelink {
+    color: rgb(0, 6, 102);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#f1 {
+    box-shadow: none;
+    margin-top: -52px;
+}
+
+#courses {
+    margin-top: 20vh;
+}
+
+#courses h2 {
+    color: rgb(0, 6, 102);
+    text-align: left;
+    font-size: 60px;
+    margin-left: 40px;
+    margin-bottom: 10px;
+}
+
+.coursetext {
+    color: rgb(114, 115, 130);
+    font-size: 30px;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    margin-top: -30px;
+}
+
+.tablecontainer {
+    overflow-x: auto;
+    margin: 0 auto;
+    box-shadow: 0px 0px 80px rgb(206, 206, 206);
+    width: fit-content;
+    border-radius: 18px;
+}
+
+table {
+    margin: 0 auto;
+    background-color: whitesmoke;
+    border-spacing: 0;
+}
+
+table td {
+    padding: 10px 60px;
+    font-size: 27px;
+    color: rgb(0, 6, 102);
+    text-align: center
+}
+
+table .tr1,
+.tr3,
+.tr5 {
+    background-color: rgb(255, 255, 255);
+}
+
+table th {
+    padding: 10px 20px;
+    font-size: 25px;
+    background-color: rgb(0, 6, 102);
+    color: rgb(249, 249, 250);
+}
+
+#f2 {
+    margin-top: 42px;
+}
+
+body.mycourse #nav .mylink {
+    color: rgb(0, 6, 102);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+#addsec {
+    margin-top: 10%;
+    margin-bottom: 0;
+}
+
+.addimg {
+    width: 100vw;
+    margin-top: -86vh;
+}
+
+.addimgblue {
+    position: relative;
+    background-color: rgba(0, 7, 102, 0.544);
+    width: 100vw;
+    height: 69vh;
+    margin-top: -70vh;
+}
+
+#addsec h6 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+}
+
+#addsec h2 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    font-size: 50px;
+    margin-top: -55vh;
+}
+
+
+.addform {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 500px;
+    height: 75vh;
+    color: rgb(118, 118, 131);
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 80px rgba(119, 119, 119, 0.575);
+    margin: 0 auto;
+    text-align: left;
+    padding: 30px;
+}
+
+.addform label {
+    margin-left: 25px;
+}
+
+.addform .lab3 {
+    position: relative;
+    left: 19.5vw;
+    top: -16vh;
+}
+
+.addform .lab4 {
+    position: relative;
+    top: -15vh;
+}
+
+.name {
+    width: 85%;
+}
+
+.hours {
+    position: relative;
+    width: 25%;
+    top: -16vh;
+    left: 19.5vw;
+}
+
+.instructor {
+    width: 50%;
+}
+
+.notes {
+    position: relative;
+    width: 85%;
+    height: 20vh;
+    top: -15vh;
+}
+
+input::placeholder,
+textarea::placeholder {
+    color: rgb(193, 194, 200);
+    font-size: 20px;
+}
+
+input {
+    height: 30px;
+    margin: 20px;
+    background-color: rgb(243, 244, 245);
+    border-radius: 15px;
+    border: none;
+    text-align: center;
+    transition: box-shadow 0.3s;
+    padding: 10px;
+    font-size: 20px;
+    font-family: opinion2;
+}
+
+textarea {
+    background-color: rgb(243, 244, 245);
+    border-radius: 15px;
+    border: none;
+    transition: box-shadow 0.3s;
+    padding: 15px;
+    margin: 20px;
+    font-size: 20px;
+    font-family: opinion2;
+    resize: none;
+}
+
+.addform input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #afafaf;
+}
+
+.addform input:hover {
+    box-shadow: 0 0 10px #afafaf;
+}
+
+.addform textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #afafaf;
+
+}
+
+.addform textarea:hover {
+    box-shadow: 0 0 10px #afafaf;
+
+}
+
+.submit {
+    display: block;
+    position: relative;
+    background-color: rgb(21, 29, 121);
+    color: white;
+    border: none;
+    width: 100px;
+    height: 40px;
+    margin: 0 auto;
+    cursor: pointer;
+    top: -11vh;
+    transition: 0.3s;
+}
+
+.submit:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px #606060;
+}
+
+body.addcourse #nav .addlink {
+    color: rgb(0, 6, 102);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+.contactinfo img {
+    margin-top: -29.5%;
+    width: 100%;
+}
+
+.imgblur {
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.674);
+    width: 100vw;
+    height: 69vh;
+    top: -70Vh;
+}
+
+.contactinfo h2 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 70px;
+    margin-top: -60%;
+    margin-left: 3%;
+}
+
+.us {
+    position: relative;
+    color: #bdc2ff;
+    margin-top: -5.45%;
+    margin-left: 16.48%;
+}
+
+.contactinfo h6 {
+    position: relative;
+    color: rgb(255, 255, 255);
+    text-align: left;
+    font-size: 30px;
+    margin-left: 3.5%;
+
+}
+
+.sendinfo {
+    position: relative;
+    background-color: rgb(255, 255, 255);
+    width: 45%;
+    height: 93vh;
+    color: rgb(118, 118, 131);
+    font-size: 20px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 80px rgba(119, 119, 119, 0.575);
+    text-align: left;
+    padding: 30px;
+    box-sizing: border-box;
+    margin-bottom: 20%;
+    margin-left: 5%;
+}
+
+.sendtitle {
+    font-size: 40px;
+    color: rgb(0, 6, 102);
+    margin-bottom: 40px;
+}
+
+.sendinfo input {
+    height: 8vh;
+}
+
+.sendinfo input[type="text"]:hover,
+.sendinfo input[type="email"]:hover {
+    box-shadow: 0 0 10px #afafaf;
+}
+
+.sendinfo input:focus {
+    outline: none;
+    box-shadow: 0 0 10px #afafaf;
+}
+
+.sendinfo .name {
+    position: relative;
+    width: 35%;
+}
+
+.sendinfo .email {
+    position: relative;
+    width: 47%;
+    top: -19.7vh;
+    left: 18vw;
+}
+
+.sendinfo .lab1 {
+    position: relative;
+    left: 2vw;
+}
+
+.sendinfo .lab2 {
+    position: relative;
+    top: -20vh;
+    left: 20vw;
+}
+
+.sendinfo .lab3 {
+    position: relative;
+    top: -18vh;
+    left: 2vw;
+}
+
+.sendinfo textarea {
+    position: relative;
+    width: 90%;
+    height: 30vh;
+    top: -18vh;
+}
+
+.sendinfo textarea:hover {
+    box-shadow: 0 0 10px #afafaf;
+
+}
+
+.sendinfo textarea:focus {
+    outline: none;
+    box-shadow: 0 0 10px #afafaf;
+
+}
+
+.submit2 {
+    position: relative;
+    display: block;
+    background-color: rgb(21, 29, 121);
+    color: white;
+    border: none;
+    width: 150px;
+    height: 40px;
+    margin: 0 auto;
+    cursor: pointer;
+    transition: 0.3s;
+    margin-top: -20.5%;
+}
+
+.submit2:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 0 10px #606060;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+.contact {
+    margin-top: -53%;
+    margin-left: 60%;
+}
+
+.mail img {
+    width: 35px;
+    padding: 20px;
+    background-color: #d3e2ed;
+    border-radius: 20px;
+    transform: translateY(6vh);
+    margin-right: 20px;
+}
+
+.mailtxt {
+    margin-left: 102px;
+    margin-top: -35px;
+}
+
+.mail a {
+    font-size: 20px;
+    color: #454652;
+}
+
+.phone {
+    transform: translateY(-5px);
+}
+
+.phone img {
+    width: 35px;
+    padding: 20px;
+    background-color: #d3e2ed;
+    border-radius: 20px;
+    transform: translateY(6vh);
+    margin-right: 20px;
+}
+
+.phonetxt {
+    margin-left: 102px;
+    margin-top: -35px;
+}
+
+.numbers {
+    font-size: 20px;
+    color: #454652;
+    margin-top: 5px;
+}
+
+.numbers a {
+    color: #454652;
+}
+
+
+.location img {
+    width: 35px;
+    padding: 20px;
+    background-color: #d3e2ed;
+    border-radius: 20px;
+    transform: translateY(7vh);
+    margin-right: 20px;
+}
+
+.locationtxt {
+    margin-left: 102px;
+    margin-top: -35px;
+}
+
+.location a {
+    display: inline-block;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #454652;
+}
+
+.links img {
+    width: 35px;
+    padding: 0 20px;
+}
+
+.linktxt {
+    margin-bottom: 50px;
+    margin-top: -30px;
+}
+
+.links {
+    text-align: center;
+    margin-top: 20%;
+}
+
+
+.insta:hover {
+    content: url("logos/instagram.png");
+}
+
+.youtube:hover {
+    content: url(logos/youtube\ \(1\).png);
+}
+
+.facebook:hover {
+    content: url(logos/facebook\ \(1\).png);
+}
+
+
+.x:hover {
+    content: url(logos/icons8-x-100.png);
+}
+
+.linkedin:hover {
+    content: url(logos/linkedin.png);
+}
+
+
+body.contactus #nav .contactlink {
+    color: rgb(0, 6, 102);
+    text-decoration: underline;
+    text-underline-offset: 10px;
+}
+
+@media (max-width: 480px) {
+    .top {
+        width: 100%;
+        font-size: 40px;
+        padding-bottom: 60px;
+    }
+    #nav {
+        top: 10vh;
+        left: 5vw;
+    }
+
+    #nav a {
+        font-size: 20px;
+        padding: 10px;
+    }
+
+    .homeimg {
+        margin-top: 70vh;
+        font-size: 28px;
+        width: 80vw;
+        height: 400px;
+        margin-left: -180px;
+    }
+
+    .homeimg img {
+        width: 70vw;
+    }
+
+    .tothours {
+        width: 47%;
+        height: 70px;
+        transform: translateY(15px);
+    }
+
+    .tothours img {
+        width: 60px;
+        margin-left: -135px;
+        transform: translateY(-4px);
+    }
+
+    .welcome {
+        width: 90vw;
+        font-size: 30px;
+        margin: 0 auto;
+        margin-top: 150px;
+        text-align: center;
+
+    }
+
+    .welcomedet {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .features {
+        height: 55vh;
+    }
+
+    .features h2 {
+        font-size: 35px;
+        margin-bottom: -30px;
+    }
+
+    .features ul,
+    .features h3 {
+        font-size: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tablecontainer {
+        margin: 0 20px;
+        width: auto;
+    }
+
+    table td {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    table th {
+        font-size: 25px;
+    }
+
+    #courses h2 {
+        font-size: 35px;
+        transform: translateX(-20px);
+    }
+
+    #courses h6 {
+        font-size: 20px;
+    }
+
+    .coursetext {
+        transform: translateX(-20px);
+        width: 80vw;
+    }
+
+    .addimg {
+        margin-top: 11vh;
+    }
+
+    .addform {
+        width: 70vw;
+        height: 100vh;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .addform input {
+        width: 80%;
+    }
+
+    .addform textarea {
+        width: 80%;
+    }
+
+    .addform .lab3 {
+        top: 0;
+        left: 0;
+    }
+
+    .hours {
+        margin-top: 35%;
+        margin-left: -19%;
+    }
+
+    #addsec h2 {
+        font-size: 30px;
+        margin-top: -55%;
+    }
+
+    #addsec h6 {
+        font-size: 15px;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 20px;
+    }
+
+    .contactinfo img {
+        margin-top: 10%;
+    }
+
+    .contactinfo h2 {
+        font-size: 30px;
+        margin-top: -105vh;
+        margin-left: 20px;
+    }
+
+    .us {
+        margin-top: -34.5px;
+        margin-left: 104.2px;
+    }
+
+    .contactinfo h6 {
+        font-size: 15px;
+        margin-top: -10px;
+        width: 90%;
+    }
+
+    .sendinfo {
+        width: 88%;
+        height: 110vh;
+        padding: 20px;
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sendtitle {
+        font-size: 25px;
+        margin-bottom: 10%;
+    }
+
+    .sendinfo input {
+        height: 6vh;
+        margin-left: 0;
+    }
+
+    .sendinfo .name {
+        width: 90%;
+    }
+
+    .sendinfo .lab1 {
+        left: 0;
+    }
+
+    .sendinfo .email {
+        width: 90%;
+        top: 0;
+        left: 0;
+    }
+
+    .sendinfo .lab2 {
+        top: 0;
+        left: 0;
+    }
+
+    .sendinfo .message {
+        margin-top: 35%;
+        margin-left: 0;
+    }
+
+    .sendinfo .lab3 {
+        top: 0;
+    }
+
+    .submit2 {
+        width: fit-content;
+        padding: 0 15px;
+        margin-top: -30%;
+        transform: translateX(79%);
+    }
+
+    .contact {
+        margin-left: 40px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .contact a {
+        font-size: 25px;
+        width: 80%;
+    }
+
+    .contact img {
+        width: 25px;
+    }
+
+    .phone img {
+        margin-top: 20px;
+    }
+
+    .mailtxt {
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .phonetxt {
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .locationtxt {
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .linktxt {
+        font-size: 30px;
+    }
+
+    .links img {
+        width: 35px;
+        padding: 20px;
+        margin-top: -20px;
+    }
+}
+
+@media (max-width: 768px) {
+    .top {
+        width: 100%;
+        font-size: 40px;
+        padding-bottom: 80px;
+    }
+    #nav {
+        top: 12vh;
+        left: 7vw;
+    }
+
+    #nav a {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .homeimg {
+        margin-top: 70vh;
+        font-size: 35px;
+        width: 80vw;
+        height: 680px;
+        margin-left: -310px;
+    }
+
+    .homeimg img {
+        width: 90%;
+    }
+
+    .tothours {
+        width: 40%;
+        height: 90px;
+        transform: translateY(15px);
+    }
+
+    .tothours img {
+        width: 80px;
+        margin-left: -170px;
+        transform: translateY(-6px);
+    }
+
+    .tothours h6{
+        transform: translate(20px,-26px);
+    }
+
+    .tothours h5 {
+        transform: translateY(-35px);
+    }
+
+    .welcome {
+        width: 90vw;
+        font-size: 30px;
+        margin: 0 auto;
+        margin-top: 150px;
+        text-align: center;
+
+    }
+
+    .welcomedet {
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .features {
+        height: 55vh;
+    }
+
+    .features h2 {
+        font-size: 35px;
+        margin-bottom: -30px;
+    }
+
+    .features ul,
+    .features h3 {
+        font-size: 23px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .tablecontainer {
+        margin: 0 20px;
+        width: auto;
+    }
+
+    table td {
+        font-size: 25px;
+        padding: 10px;
+    }
+
+    table th {
+        font-size: 25px;
+    }
+
+    #courses h2 {
+        font-size: 40px;
+        transform: translateX(-20px);
+        margin-top: 150px;
+    }
+
+    #courses h6 {
+        font-size: 25px;
+    }
+
+    .coursetext {
+        transform: translateX(-20px);
+        width: 80vw;
+    }
+
+    .addimg {
+        margin-top: -100px;
+    }
+
+    .addform {
+        width: 70vw;
+        height: 100vh;
+        font-size: 20px;
+        padding: 20px;
+    }
+
+    .addform input {
+        width: 80%;
+    }
+
+    .addform textarea {
+        width: 80%;
+    }
+
+    .addform .lab3 {
+        top: 0;
+        left: 0;
+    }
+
+    .hours {
+        margin-top: 130px;
+        margin-left: -130px;
+    }
+
+    #addsec h2 {
+        font-size: 30px;
+        margin-top: -300px;
+    }
+
+    #addsec h6 {
+        font-size: 15px;
+    }
+
+    input::placeholder,
+    textarea::placeholder {
+        font-size: 20px;
+    }
+
+    .contactinfo img {
+        margin-top: -100px;
+    }
+
+    .contactinfo h2 {
+        font-size: 40px;
+        margin-top: -660px;
+        margin-left: 20px;
+    }
+
+    .us {
+        margin-top: -46px;
+        margin-left: 139px;
+    }
+
+    .contactinfo h6 {
+        font-size: 20px;
+        margin-top: -10px;
+        width: 90%;
+    }
+
+    .sendinfo {
+        width: 80%;
+        height: 110vh;
+        padding: 20px;
+        margin: 0 auto;
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .sendtitle {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+
+    .sendinfo input {
+        height: 6vh;
+        margin-left: 0;
+    }
+
+    .sendinfo .name {
+        width: 90%;
+    }
+
+    .sendinfo .lab1 {
+        left: 0;
+    }
+
+    .sendinfo .email {
+        width: 90%;
+        top: 0;
+        left: 0;
+    }
+
+    .sendinfo .lab2 {
+        top: 0;
+        left: 0;
+    }
+
+    .sendinfo .message {
+        margin-top: 140px;
+        margin-left: 0;
+    }
+
+    .sendinfo .lab3 {
+        top: 0;
+        left: 0;
+    }
+
+    .submit2 {
+        width: fit-content;
+        padding: 0 15px;
+        margin-top: -110px;
+        transform: translateX(220px);
+    }
+
+    .contact {
+        margin-left: 150px;
+        margin-top: 20px;
+        font-size: 25px;
+    }
+
+    .contact a {
+        font-size: 25px;
+        width: 80%;
+    }
+
+    .contact img {
+        width: 25px;
+    }
+
+    .phone img {
+        margin-top: 20px;
+    }
+
+    .mailtxt {
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .phonetxt {
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .locationtxt {
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .linktxt {
+        font-size: 30px;
+    }
+
+    .links img {
+        width: 35px;
+        padding: 20px;
+        margin-top: -20px;
+    }
+}
+@media (max-width: 1024px) {
+    .top {
+        width: 100%;
+        font-size: 45px;
+    }
+    #nav {
+        top: 20px;
+        left: 350px;
+    }
+
+    #nav a {
+        font-size: 30px;
+        padding: 20px;
+    }
+
+    .homeimg {
+        font-size: 35px;
+        width: 40vw;
+        height: 500px;
+    }
+
+    .homeimg img {
+        width: 90%;
+    }
+
+    .tothours {
+        width: 55%;
+        height: 90px;
+        transform: translateY(15px);
+    }
+
+    .tothours img {
+        width: 80px;
+        margin-left: -160px;
+        transform: translateY(-6px);
+    }
+
+    .tothours h6{
+        transform: translate(30px,-26px);
+    }
+
+    .tothours h5 {
+        transform: translate(10px,-35px);
+    }
+
+    .welcome {
+       margin-top:150px;
+
+    }
+
+    .tablecontainer {
+        margin: 0 20px;
+        width: auto;
+    }
+
+    #courses h2 {
+        transform: translateX(-20px);
+        margin-top: 150px;
+    }
+
+    #courses h6 {
+        font-size: 30px;
+    }
+
+    .coursetext {
+        transform: translateX(-20px);
+        width: 80vw;
+    }
+
+    .addimg {
+        margin-top: -200px;
+    }
+
+    .addform {
+        width: 70vw;
+    }
+
+    .addform textarea {
+        width: 80%;
+    }
+
+    #addsec h2 {
+        font-size: 40px;
+        margin-top: -350px;
+    }
+
+    .hours {
+        margin-top: 40px;
+        margin-left: 250px;
+    }
+    
+    .addform .lab3 {
+        margin-left: 250px;
+
+    }
+
+    .contactinfo img {
+        margin-top: -300px;
+    }
+
+    .contactinfo h2 {
+        font-size: 40px;
+        margin-top: -80%;
+        margin-left: 20px;
+    }
+
+    .us {
+        margin-top: -46px;
+        margin-left: 139px;
+    }
+
+    .contactinfo h6 {
+        font-size: 20px;
+        margin-top: -10px;
+        width: 90%;
+    }
+
+    .sendtitle {
+        font-size: 25px;
+        margin-bottom: 35px;
+    }
+
+    .sendinfo input {
+        height: 6vh;
+        margin-left: 0;
+    }
+
+    .sendinfo .name {
+        width: 90%;
+    }
+
+    .sendinfo .lab1 {
+        left: 0;
+    }
+
+    .sendinfo .email {
+        width: 90%;
+        top: 0;
+        left: 0;
+    }
+
+    .sendinfo .lab2 {
+        top: 0;
+        left: 0;
+    }
+
+    .sendinfo .message {
+        margin-top: 180px;
+        margin-left: 0;
+    }
+
+    .sendinfo .lab3 {
+        top: 0;
+        left: 0;
+    }
+
+    .submit2 {
+        width: fit-content;
+        margin-top: -160px;
+        transform: translateX(100px);
+    }
+
+    .contact {
+        margin-top: -800px;
+        font-size: 30px;
+    }
+
+    .contact a {
+        font-size: 25px;
+        width: 80%;
+    }
+
+    .contact img {
+        width: 30px;
+    }
+
+    .phone img {
+        margin-top: 20px;
+    }
+
+    .mailtxt {
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .phonetxt {
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .locationtxt {
+        margin-left: 80px;
+        margin-top: -15px;
+    }
+
+    .linktxt {
+        font-size: 30px;
+    }
+
+    .links img {
+        width: 40px;
+        padding: 20px;
+        margin-top: -20px;
+    }
+}
+
+
