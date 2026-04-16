@@ -682,7 +682,7 @@ body.contactus #nav .contactlink {
     }
 
     .all #nav {
-        margin-left: -85%;
+        margin-left: -82%;
         margin-top: 13%;
         width: 100%;
     }
@@ -746,6 +746,7 @@ body.contactus #nav .contactlink {
     .all #courses h2 {
         font-size: 35px;
         transform: translateX(-20px);
+        margin-top: 170px;
     }
 
     .all #courses h6 {
@@ -762,9 +763,10 @@ body.contactus #nav .contactlink {
 
     .all .addform {
         width: 70vw;
-        height: 100vh;
+        height: 600px;
         font-size: 20px;
         padding: 20px;
+        padding-left: 10px;
     }
 
     .addform input {
@@ -772,7 +774,7 @@ body.contactus #nav .contactlink {
     }
 
     .all .addform textarea {
-        width: 80%;
+        width: 190px;
     }
 
     .all .addform .lab3 {
@@ -780,13 +782,13 @@ body.contactus #nav .contactlink {
     }
 
     .all .hours {
-        margin-top: 70%;
-        margin-left: -19%;
+        margin-top: 120px;
+        margin-left: -48px;
     }
 
     .all #addsec h2 {
         font-size: 30px;
-        margin-top: -50%;
+        margin-top: -150px;
     }
 
     .all #addsec h6 {
@@ -805,7 +807,7 @@ body.contactus #nav .contactlink {
     .all .contactinfo h2 {
         font-size: 30px;
         margin-left: 20px;
-        margin-top: -210%;
+        margin-top: -600px;
     }
 
     .all .us {
@@ -821,11 +823,12 @@ body.contactus #nav .contactlink {
 
     .all .sendinfo {
         width: 88%;
-        height: 60%;
+        height: 650px;
         padding: 20px;
         margin: 0 auto;
         font-size: 20px;
         text-align: center;
+        margin-top: -30px;
     }
 
     .sendtitle {
@@ -857,9 +860,10 @@ body.contactus #nav .contactlink {
         left: 0;
     }
 
-    .sendinfo .message {
-        margin-top: 35%;
+    .all .sendinfo .message {
+        margin-top: 130px;
         margin-left: 0;
+        width: 86%;
     }
 
     .sendinfo .lab3 {
@@ -870,6 +874,7 @@ body.contactus #nav .contactlink {
         width: fit-content;
         padding: 0 15px;
         margin-left: -15%;
+        margin-top: -120px;
     }
 
     .all .contact {
