@@ -782,7 +782,7 @@ body.contactus #nav .contactlink {
     }
 
     .all .hours {
-        margin-top: 120px;
+        margin-top: 150px;
         margin-left: -48px;
     }
 
@@ -795,19 +795,25 @@ body.contactus #nav .contactlink {
         font-size: 15px;
     }
 
+    .submit {
+    display: block;
+    margin: 20px auto;
+    position: static;
+}
     input::placeholder,
     textarea::placeholder {
         font-size: 20px;
+        text-align: center;
     }
 
     .all .contactinfo img {
-        margin-top: 30%;
+        margin-top: 150px;
     }
 
     .all .contactinfo h2 {
         font-size: 30px;
         margin-left: 20px;
-        margin-top: -600px;
+        margin-top: -750px;
     }
 
     .all .us {
@@ -833,7 +839,6 @@ body.contactus #nav .contactlink {
 
     .sendtitle {
         font-size: 25px;
-        margin-bottom: 10%;
     }
 
     .sendinfo input {
@@ -861,9 +866,10 @@ body.contactus #nav .contactlink {
     }
 
     .all .sendinfo .message {
-        margin-top: 130px;
+        margin-top: 160px;
         margin-left: 0;
         width: 86%;
+        height: 150px;
     }
 
     .sendinfo .lab3 {
@@ -872,9 +878,7 @@ body.contactus #nav .contactlink {
 
     .all .submit2 {
         width: fit-content;
-        padding: 0 15px;
-        margin-left: -15%;
-        margin-top: -120px;
+        transform: translate(60px,15px);
     }
 
     .all .contact {
